@@ -4,17 +4,21 @@ const WeatherDisplay = ({ weather }) => {
   const { temperature, conditions } = weather;
 
   return (
-    <p className="weather-display">
-      <span
-        style={{
-          color: temperature > 20 ? "red" : "blue",
-          marginRight: "10px",
-        }}
-      >
-        Temperature: {temperature}
-      </span>
-      <span>Conditions: {conditions}</span>
-    </p>
+    <>
+      <p className="weather-display">
+        <span
+          style={{
+            color: temperature > 20 ? "red" : "blue",
+            marginRight: "10px",
+          }}
+        >
+          Temperature: {temperature}
+        </span>
+      </p>
+      <p>
+        <span>Conditions: {conditions}</span>
+      </p>
+    </>
   );
 };
 
