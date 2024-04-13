@@ -1,1 +1,12 @@
+/* App.css */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+/* WeatherDisplay.css */
+.weather-display {
+  text-align: center;
+}

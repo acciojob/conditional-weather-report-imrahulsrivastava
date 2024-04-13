@@ -1,4 +1,4 @@
 {
-    "testRepo": "conditional-weather-report-solution",
-    "pathToFile": "cypress/integration/tests/test.spec.js"
+  "testRepo": "conditional-weather-report-solution",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
 }
