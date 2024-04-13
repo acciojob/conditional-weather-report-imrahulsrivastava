@@ -5,10 +5,15 @@ const WeatherDisplay = ({ weather }) => {
 
   return (
     <div className="weather-display">
-      <p style={{ color: temperature > 20 ? "red" : "blue" }}>
+      <span
+        style={{
+          color: temperature > 20 ? "red" : "blue",
+          marginRight: "10px",
+        }}
+      >
         Temperature: {temperature}
-      </p>
-      <p>Conditions: {conditions}</p>
+      </span>
+      <span>Conditions: {conditions}</span>
     </div>
   );
 };
