@@ -4,7 +4,7 @@ const WeatherDisplay = ({ weather }) => {
   const { temperature, conditions } = weather;
 
   return (
-    <div className="weather-display">
+    <p className="weather-display">
       <span
         style={{
           color: temperature > 20 ? "red" : "blue",
@@ -14,7 +14,7 @@ const WeatherDisplay = ({ weather }) => {
         Temperature: {temperature}
       </span>
       <span>Conditions: {conditions}</span>
-    </div>
+    </p>
   );
 };
 
